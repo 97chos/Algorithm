@@ -3,7 +3,9 @@ var array1 = (readLine()?.split(separator: " ").map{ Int(String($0))!})!.sorted(
 let array2 = (readLine()?.split(separator: " ").map{ Int(String($0))!})!.sorted(by: >)
 
 for i in 0..<n[1] {
-  array1[i] = array2[i]
+  if array1[i] < array2[i] {
+    array1[i] = array2[i]
+  }
 }
 
 print(array1.reduce(0, +))
