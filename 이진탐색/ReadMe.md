@@ -19,6 +19,6 @@
        } else {
          return binary_search(arr: arr, target: target, start: mid + 1, end: end)
        }
-       }
+      }
 
-       print(binary_search(arr: binaryArr, target: 3, start: 0, end: 10)!)
+      print(binary_search(arr: binaryArr, target: 3, start: 0, end: 10)!)
