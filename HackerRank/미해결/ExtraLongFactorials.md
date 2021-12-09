@@ -20,5 +20,22 @@ func extraLongFactorials(n: Int) -> Void {
 - Int형으로는 범위에 대한 제약이 있어 큰 수의 계산이 불가능하므로, 그보다 더 큰 범위를 가진 Double로 변환하여 게산한다.
 - 결과값이 커지면 부동소수점 e로 값이 도출되므로, NSDesimalNumber()를 이용하여 값을 출력한다.
 
+***
+
 ## 미해결된 부분
 - 1 ~ !22까지는 값이 정확하게 계산되나, !23부터 값이 다르게 나온다.
+
+## 다른 방법
+```swift
+func extraLongFactorials(n: Int) -> Void {
+    var result = 1
+    var varN = n
+    
+    while(varN > 1) {
+        result *= varN
+        varN -= 1
+    }
+    
+    print(NSDecimalNumber(value: result))
+}
+```
