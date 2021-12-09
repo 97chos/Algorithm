@@ -1,4 +1,4 @@
-# [birthday](https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true)
+# [Birthday](https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true)
 - 정수 배열 s와 정수 d,m이 주어졌을 때, s배열 내에서 m만큼 연속되는 Element들의 합이 d와 같아지는 경우의 수를 구하라.
 
 <img width="1037" alt="스크린샷 2021-12-09 오후 6 54 09" src="https://user-images.githubusercontent.com/59811450/145374169-e2df5c6f-e6f4-4418-98df-ec2cd9f2ea94.png">
