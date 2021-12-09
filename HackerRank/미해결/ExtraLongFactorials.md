@@ -25,7 +25,7 @@ func extraLongFactorials(n: Int) -> Void {
 ## 미해결된 부분
 - 1 ~ !22까지는 값이 정확하게 계산되나, !23부터 값이 다르게 나온다.
 
-## 다른 방법
+## 다르게 시도한 방법
 ```swift
 func extraLongFactorials(n: Int) -> Void {
     var result = 1
