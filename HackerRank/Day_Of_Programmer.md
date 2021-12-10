@@ -63,7 +63,7 @@ func dayOfProgrammer(year: Int) -> String {
       month += 1
     }
 
-    return "\(day + 1).0\(month).\(year)"
+    return "\(day).0\(month + 1).\(year)"
   }
 }
 ```
