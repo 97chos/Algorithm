@@ -1,4 +1,4 @@
-# Repeated String
+# [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true)
 - 문자열 s와 정수 n이 주어졌을 때, n자리 수까지 s를 반복 나열한 문자열에서 s의 첫번째 문자의 개수를 구하라.
 - ex) s = abc, n = 10일 때, abcabcabca에서 a의 개수는 4이므로 4가 리턴된다.
 
