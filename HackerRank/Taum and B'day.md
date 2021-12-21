@@ -24,7 +24,10 @@ func taumBday(b: Int, w: Int, bc: Int, wc: Int, z: Int) -> Int {
 ## 풀이
 - 두 선물 가격 중 최소 가격으로 구매한 뒤 나머지 선물을 교환했을 때의 가격과, 나머지 선물 가격을 비교하여 최소 가격을 구한다.
 
+***
+
 ## 다른 풀이
+- if문을 풀어서 쓴 코드 풀이
 
 ```swift
 func taumBday(b: Int, w: Int, bc: Int, wc: Int, z: Int) -> Int {
