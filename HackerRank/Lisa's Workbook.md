@@ -19,7 +19,6 @@ func workbook(n: Int, k: Int, arr: [Int]) -> Int {
   
   for i in 0..<arr.count {
     for j in 1...arr[i] {
-      print(page, j)
       if j == page {
         result += 1
       }
@@ -37,28 +36,10 @@ func workbook(n: Int, k: Int, arr: [Int]) -> Int {
 ```
 
 ## 풀이
-- 1부터 
+- 문제 번호 1부터 각 챕터가 갖는 문제 수까지 반복문을 실행한다.
+- 만약 문제 번호가 현재 페이지와 같을 경우 result에 1을 더한다.
+- 만약 문제 번호가 k의 배수인 경우, 다음 page로 넘어간다.
+- 반복문 종료 후 현재 page의 문제 수가 k만큼 채워지지 않았을 경우, 다음 page로 넘어가 다음 챕터로 페이지를 시작한다.
 
-## 다른 풀이
-- if문을 풀어서 쓴 코드 풀이
-
-```swift
-func taumBday(b: Int, w: Int, bc: Int, wc: Int, z: Int) -> Int {
-  var minCost = 0
-  var changeTo = 0
-  let totalCount = b + w
-  let originCost = (b * bc) + (w * wc)
-
-  if bc <= wc {
-    minCost = bc
-    changeTo = w
-  } else {
-    minCost = wc
-    changeTo = b
-  }
-
-  let result = (totalCount * minCost) + (changeTo * z)
-
-  return result < originCost ? result : originCost
-}
-```
+## 시도한 풀이
+- 처음에는 각 챕터 당 문제 개수를 k로 나누어 챕터별로 요구하는 페이지를 계산하여 조건문을 이용해 풀고자 하였으나, *1. 문제 번호 반복, 2. 현재 페이지에 대한 반복, 3. 각 챕터 당 필요한 페이지 수에 대한 반복* 총 세번의 반복문이 필요하여 시간 복잡도가 늘어날 것으로 판단, 다른 방법으로 우회하였다.
