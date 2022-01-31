@@ -4,8 +4,8 @@
 - ex) 5명에게 전달 -> 5 / 2인 2명에게만 효과 (총 2명)-> 2명의 사람들이 각자 3명씩 전달하여 6명에게 추가로 전달 -> 6 / 2인 3명에게만 추가로 효과 (총 5명) -> ... 
 - 5명을 대상으로 시작하며 마케팅하는 기간 일수 n이 주어졌을 때, 바이럴 마케팅 효과를 받은 사람은 총 몇 명인지 구하라.
 
-<img width="1061" alt="스크린샷 2021-12-22 오전 1 00 25" src="https://user-images.githubusercontent.com/59811450/146960690-91bfa5d7-5517-4c48-850b-badd6e76087f.png">
-<img width="1061" alt="스크린샷 2021-12-22 오전 1 00 37" src="https://user-images.githubusercontent.com/59811450/146960720-07cd691c-7579-4159-9bf5-178ee7144298.png">
+<img width="1059" alt="스크린샷 2022-01-31 오후 8 04 53" src="https://user-images.githubusercontent.com/59811450/151782906-b332d58f-f7c6-48af-bdbd-42b221742ca3.png">
+<img width="1059" alt="스크린샷 2022-01-31 오후 8 05 05" src="https://user-images.githubusercontent.com/59811450/151782952-b4cede53-c6be-402c-a20a-5aa350517ea4.png">
 
 ***
 
